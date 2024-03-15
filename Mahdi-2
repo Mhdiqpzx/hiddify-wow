@@ -93,7 +93,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "Mahdizx § 0"
+        "WARP § 0"
       ],
       "default": "auto"
     },
@@ -101,14 +101,14 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "Mahdizx § 0"
+        "WARP § 0"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
     },
     {
       "type": "wireguard",
-      "tag": "Mahdizx § 0",
+      "tag": "WARP § 0",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8931:a7cd:69d8:8fe2:a9de/128"
