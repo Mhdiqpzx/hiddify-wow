@@ -3,32 +3,32 @@
   [
     {
       "type": "wireguard",
-      "tag": "Warp-IR",
+      "tag": "Mahdi-1",
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8713:4105:2e7d:54ed:245c/128"
+        "2606:4700:110:87db:9ed4:8e5a:250e:589c/128"
       ],
-      "private_key": "yI0n/wfl2y886kykKpQsLCQHHP+PnG0yHwhjALA9710=",
-      "server": "162.159.192.27",
-      "server_port": 2371,
+      "private_key": "CAhETFwE5rdnhVVTfHqBo4OP1rPcYcnJyxbJOegWYGg=",
+      "server": "162.159.192.131",
+      "server_port": 2506,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [94,139,166],
+      "reserved": [250,153,15],
       "mtu": 1280,
       "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
-      "tag": "Warp-Main",
-      "detour": "Warp-IR",
+      "tag": "Mahdi-2",
+      "detour": "Mahdi-1",
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:837e:9334:902e:9e9d:d1b6/128"
+        "2606:4700:110:8349:75e0:fc5:3992:3231/128"
       ],
-      "private_key": "0AV0gfgMbUaZ2fNH4wH+f4W9lnPrmdmcr6i1cy1k5VA=",
-      "server": "162.159.192.27",
-      "server_port": 2371,
+      "private_key": "UKo4iJz/AGAkmw88VAA0Stm/z9SqlC33xqnQx1wACmI=",
+      "server": "162.159.192.131",
+      "server_port": 2506,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [147,3,10],
+      "reserved": [84,218,252],
       "mtu": 1280,
       "fake_packets": "5-10"
     }
