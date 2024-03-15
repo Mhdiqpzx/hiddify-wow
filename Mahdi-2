@@ -111,13 +111,13 @@
       "tag": "WARP § 0",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8931:a7cd:69d8:8fe2:a9de/128"
+        "2606:4700:110:8fe6:ce8f:6b70:771e:bb4b/128"
       ],
-      "private_key": "WBtunaiw9/UyNpYFNN3VsTK6W8qPp2/sSLB4pYmgpW0=",
-      "server": "162.159.192.199",
-      "server_port": 894,
+      "private_key": "oP/qSJBUQS1qUXUlc7m/lZNQymibQSqn927k/iXsy2A=",
+      "server": "162.159.192.210",
+      "server_port": 3476,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [12,100,198],
+      "reserved": [170,40,153],
       "mtu": 1280,
       "fake_packets": "1-5",
       "fake_packets_size": "40-100",
